@@ -31,7 +31,9 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
                 android:text="Pato"
-                android:textSize="16sp" />
+                android:textSize="24sp"
+                android:layout_marginBottom="16dp"
+                />
 
             <TextView
                 android:id="@+id/tv_sexo"
@@ -41,7 +43,8 @@
                 android:layout_centerHorizontal="true"
                 android:padding="2dp"
                 android:text="Macho"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                />
             <TextView
                 android:id="@+id/tv_habitad"
                 android:layout_width="wrap_content"

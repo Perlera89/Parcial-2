@@ -16,28 +16,28 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tabLayout: TabLayout
     private lateinit var viewPager: ViewPager
 
-    private lateinit var image: ImageView
-    private lateinit var especie: TextView
-    private lateinit var sexo: TextView
-    private lateinit var habitad: TextView
-
-    var especies = arrayListOf<String>("Leon","Pato","Perro")
-    var sexos = arrayListOf<String>("macho","hembra")
-    var habitads = arrayListOf<String>("Bosque","Padrera", "Montaña")
-
-    var images = arrayOf(
-        R.drawable.leon,
-        R.drawable.pato,
-        R.drawable.perro
-    )
-
-    var animales = arrayOf(
-        Animal(images.get(0), especies.get(0),sexos.get(0), habitads.get(0)),
-        Animal(images.get(1), especies.get(1),sexos.get(1), habitads.get(1)),
-        Animal(images.get(2), especies.get(2),sexos.get(0), habitads.get(2))
-    )
-
-    var listAnimal = ArrayList<Animal>()
+//    private lateinit var image: ImageView
+//    private lateinit var especie: TextView
+//    private lateinit var sexo: TextView
+//    private lateinit var habitad: TextView
+//
+//    var especies = arrayListOf<String>("Leon","Pato","Perro")
+//    var sexos = arrayListOf<String>("macho","hembra")
+//    var habitads = arrayListOf<String>("Bosque","Padrera", "Montaña")
+//
+//    var images = arrayOf(
+//        R.drawable.leon,
+//        R.drawable.pato,
+//        R.drawable.perro
+//    )
+//
+//    var animales = arrayOf(
+//        Animal(images.get(0), especies.get(0),sexos.get(0), habitads.get(0)),
+//        Animal(images.get(1), especies.get(1),sexos.get(1), habitads.get(1)),
+//        Animal(images.get(2), especies.get(2),sexos.get(0), habitads.get(2))
+//    )
+//
+//    var listAnimal = ArrayList<Animal>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -64,7 +64,9 @@ class MainActivity : AppCompatActivity() {
 
         val fragments: MutableList<Fragment> = ArrayList()
 
-        for()
+//        for(fragment in fragments){
+//            var view = fragment.view
+//        }
 
         fragments.add(LeonFragment())
         fragments.add(PerroFragment())
